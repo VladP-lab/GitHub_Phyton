@@ -29,7 +29,7 @@ except Exception as e:
 
 # 3. pandas
 try:
-    data = {"name": ["Andrew", "Leyley"], "age": [16, 17]}
+    data = {"name": ["David", "Tom"], "age": [16, 17]}
     df = pd.DataFrame(data)
     print("Таблиця через Pandas:\n", df)
 except Exception as e:
