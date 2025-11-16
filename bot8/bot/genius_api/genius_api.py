@@ -1,5 +1,5 @@
 import requests
-from config import GENIUS_SEARCH_URL, GENIUS_HEADERS, GENIUS_ACCESS_TOKEN
+from config.config import GENIUS_SEARCH_URL, GENIUS_HEADERS, GENIUS_ACCESS_TOKEN
 
 def search_genius(query: str):
     """Виконує пошук пісень через Genius API."""
