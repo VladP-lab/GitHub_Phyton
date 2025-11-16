@@ -1,6 +1,6 @@
 import telebot
-from config import TELEGRAM_BOT_TOKEN
-from handlers import register_handlers
+from config.config import TELEGRAM_BOT_TOKEN
+from handlers.handlers import register_handlers
 
 def main():
     if not TELEGRAM_BOT_TOKEN:
