@@ -1,5 +1,5 @@
-from config import GENIUS_ACCESS_TOKEN
-from genius_api import search_genius, extract_best_song_info
+from config.config import GENIUS_ACCESS_TOKEN
+from genius_api.genius_api import search_genius, extract_best_song_info
 
 def register_handlers(bot):
     """Реєструє всі обробники команд і повідомлень."""
